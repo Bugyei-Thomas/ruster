@@ -13,17 +13,17 @@ A high-performance crypter and decrypter built with rust. This tool uses aes-256
 
 ### Clone the repository
 Clone this repo to your local machine:
-```bash
+```
 git clone https://github.com/Bugyei-Thomas/ruster
 cd ruster
 ```
 ## Build the project
 Build this in release mode for optimized performance
-```bash
+```
 carg build --release
 cd target/release
 ```
 ## Run the program
-```bash
+```
 ./file_encrypter_decrypter
 ```
