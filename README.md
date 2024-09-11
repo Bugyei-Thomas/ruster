@@ -3,9 +3,8 @@
 A high-performance crypter and decrypter built with rust. This tool uses aes-256 encryption in cbc mode to securely encrypt and decrypt files.
 
 ## Features
-- Secure encryption and decryption using aes-256
-- Password-based key generation with sha256
-- User-friendly command-line interface
+- Secure encryption and decryption using ChaCha20
+- Password-based key generation with SHA-256
 
 ## Requirements
 - Rust installed (see [rust installation guide](https://www.rust-lang.org/tools/install))
@@ -22,9 +21,9 @@ cd ruster
 Build this in release mode for optimized performance
 ```bash
 carg build --release
-cd /target/release
+cd target/release
 ```
-## Run the release file
+## Run the program
 ```bash
-./crypter
+./file_encrypter_decrypter
 ```
