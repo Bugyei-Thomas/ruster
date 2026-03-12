@@ -14,7 +14,7 @@ A high-performance crypter and decrypter built with rust. This tool uses aes-256
 ### Clone the repository
 Clone this repo to your local machine:
 ```
-git clone https://github.com/Bugyei-Thomas/ruster
+git clone https://github.com/s4wbvnny/ruster
 cd ruster
 ```
 ## Build the project
